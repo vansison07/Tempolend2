@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Category1stSelection">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview"
+                android:layout_width="430dp"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/BACKButton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/backbutton"
+                    android:translationZ="90dp" />
+
+                <TextView
+                    android:id="@+id/Home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-552dp"
+                    android:layout_marginLeft="-15dp"
+                    android:text="Product"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:translationZ="90dp" />
+
+                <ImageButton
+                    android:id="@+id/profile"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="385dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/profile"
+                    android:translationZ="90dp" />
+
+                <ImageButton
+                    android:id="@+id/cart"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="345dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/baseline_shopping_cart_24"
+                    android:translationZ="90dp" />
+
+
+                <ImageView
+                    android:layout_width="424dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="735dp"
+                    android:backgroundTint="#004aad"
+                    android:background="@drawable/selectionbg"/>
+
+                <ImageView
+                    android:layout_width="424dp"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginLeft="0dp"
+                    android:background="@drawable/guitar"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="329dp"
+                    android:layout_marginTop="762dp"
+                    android:text="Rating 4.0 of 5"
+                    android:textColor="#FFFF00"
+                    android:textSize="11dp" />
+
+
+                <TextView
+                    android:layout_width="373dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="755dp"
+                    android:text="Kingston Value RAM 4GB DDR3"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="785dp"
+                    android:text="Kingston Technology"
+                    android:textColor="#ffffff"
+                    android:textSize="10dp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="855dp"
+                    android:text="₱ 568"
+                    android:textColor="#ffffff"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="605dp"
+                    android:layout_marginLeft="30dp"
+                    android:backgroundTint="#004aad"
+                    android:background="@drawable/radius"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="610dp"
+                    android:layout_marginLeft="45dp"
+                    android:backgroundTint="#ffffff"
+                    android:background="@drawable/gb"
+                    android:translationZ="90dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="655dp"
+                    android:text="4GB"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="605dp"
+                    android:layout_marginLeft="170dp"
+                    android:backgroundTint="#004aad"
+                    android:background="@drawable/radius"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="610dp"
+                    android:layout_marginLeft="184dp"
+                    android:backgroundTint="#ffffff"
+                    android:background="@drawable/speed"
+                    android:translationZ="90dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="655dp"
+                    android:text="1600Mhz"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="605dp"
+                    android:layout_marginLeft="310dp"
+                    android:backgroundTint="#004aad"
+                    android:background="@drawable/radius"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="610dp"
+                    android:layout_marginLeft="325dp"
+                    android:backgroundTint="#ffffff"
+                    android:background="@drawable/guitar1"
+                    android:translationZ="90dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="332dp"
+                    android:layout_marginTop="655dp"
+                    android:text="DDR3"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="850dp"
+                    android:backgroundTint="#ffffff"
+                    android:translationZ="90dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="858dp"
+                    android:layout_marginLeft="160dp"
+                    android:backgroundTint="#000000"
+                    android:background="@drawable/baseline_shopping_cart_24"
+                    android:translationZ="90dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="190dp"
+                    android:layout_marginTop="861dp"
+                    android:text="Add to Cart"
+                    android:textColor="#000000"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:translationZ="90dp"/>
+
+                <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="290dp"
+                    android:layout_marginTop="850dp"
+                    android:backgroundTint="#ffffff"
+                    android:translationZ="90dp"/>
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_marginTop="858dp"
+                    android:layout_marginLeft="300dp"
+                    android:backgroundTint="#000000"
+                    android:background="@drawable/buynw"
+                    android:translationZ="90dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="330dp"
+                    android:layout_marginTop="861dp"
+                    android:text="Buy Now"
+                    android:textColor="#000000"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:translationZ="90dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="941dp"
+                    android:text="You may also like"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:translationZ="190dp"/>
+
+                <ImageView
+                    android:id="@+id/shadow"
+                    android:layout_width="500dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="939dp"
+                    android:layout_marginLeft="-30dp"
+                    android:layout_marginRight="-30dp"
+                    android:backgroundTint="#004aad"
+                    android:background="@drawable/dropshadow"
+                    android:translationZ="90dp"/>
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:translationZ="-90dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:outlineAmbientShadowColor="#000000">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="572dp"
+                            android:layout_height="wrap_content">
+
+
+                            <TextView
+                                android:id="@+id/ramdescription4"
+                                android:layout_width="155dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginTop="1100dp"
+                                android:text="Corsair RAM"
+                                android:textColor="#ffffff"
+                                android:textSize="12dp"
+                                android:translationZ="90dp" />
+
+                            <ImageButton
+                                android:id="@+id/bottom1stSelection"
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="970dp"
+                                android:background="@drawable/guitar2"
+                                android:scaleType="fitCenter"
+                                android:translationZ="90dp" />
+
+                            <TextView
+                                android:layout_width="120dp"
+                                android:layout_height="180dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="970dp"
+                                android:background="@drawable/radius"
+                                android:elevation="10dp"
+                                android:padding="10dp" />
+
+                            <TextView
+                                android:id="@+id/ramprice4"
+                                android:layout_width="155dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginTop="1130dp"
+                                android:text="₱ 4,500"
+                                android:textColor="#ffffff"
+                                android:textSize="12dp"
+                                android:textStyle="bold"
+                                android:translationZ="90dp" />
+
+                            <TextView
+                                android:id="@+id/ramdescription2"
+                                android:layout_width="155dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="160dp"
+                                android:layout_marginTop="1100dp"
+                                android:text="Fury Beast RAM"
+                                android:textColor="#ffffff"
+                                android:textSize="12dp"
+                                android:translationZ="90dp" />
+
+                            <ImageButton
+                                android:id="@+id/bottom2ndSelection"
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="155dp"
+                                android:layout_marginTop="970dp"
+                                android:background="@drawable/guitar3"
+                                android:scaleType="fitCenter"
+                                android:translationZ="90dp" />
+
+                            <TextView
+                                android:layout_width="120dp"
+                                android:layout_height="180dp"
+                                android:layout_marginLeft="155dp"
+                                android:layout_marginTop="970dp"
+                                android:background="@drawable/radius"
+                                android:elevation="10dp"
+                                android:padding="10dp" />
+
+                            <TextView
+                                android:id="@+id/ramprice2"
+                                android:layout_width="155dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="160dp"
+                                android:layout_marginTop="1130dp"
+                                android:text="₱ 2,500"
+                                android:textColor="#ffffff"
+                                android:textSize="12dp"
+                                android:textStyle="bold"
+                                android:translationZ="90dp" />
+
+                            <TextView
+                                android:layout_width="120dp"
+                                android:layout_height="180dp"
+                                android:layout_marginLeft="292dp"
+                                android:layout_marginTop="970dp"
+                                android:background="@drawable/radius"
+                                android:elevation="10dp"
+                                android:padding="10dp" />
+
+                            <ImageButton
+                                android:id="@+id/bottom3rdSelection"
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="292dp"
+                                android:layout_marginTop="970dp"
+                                android:background="@drawable/guitar4"
+                                android:scaleType="fitCenter"
+                                android:translationZ="90dp" />
+
+                            <TextView
+                                android:id="@+id/ramdescription"
+                                android:layout_width="155dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="300dp"
+                                android:layout_marginTop="1100dp"
+                                android:text="Fury HyperX RAM"
+                                android:textColor="#ffffff"
+                                android:textSize="12dp"
+                                android:translationZ="90dp" />
+
+
+                            <TextView
+                                android:id="@+id/ramprice"
+                                android:layout_width="155dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="300dp"
+                                android:layout_marginTop="1130dp"
+                                android:text="₱ 1,260"
+                                android:textColor="#ffffff"
+                                android:textSize="12dp"
+                                android:textStyle="bold"
+                                android:translationZ="90dp" />
+
+                            <TextView
+                                android:layout_width="155dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="299dp"
+                                android:layout_marginTop="1160dp"
+                                android:text=""
+                                android:textColor="#ffffff"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:translationZ="90dp" />
+
+
+                            <TextView
+                                android:layout_width="155dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="440dp"
+                                android:layout_marginTop="1100dp"
+                                android:text="Crucial"
+                                android:textColor="#ffffff"
+                                android:textSize="12dp"
+                                android:translationZ="90dp" />
+
+                            <ImageButton
+                                android:id="@+id/bottom4thSelection"
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="432dp"
+                                android:layout_marginTop="970dp"
+                                android:background="@drawable/guitar5"
+                                android:scaleType="fitCenter"
+                                android:translationZ="90dp" />
+
+                            <TextView
+                                android:layout_width="120dp"
+                                android:layout_height="180dp"
+                                android:layout_marginLeft="432dp"
+                                android:layout_marginTop="970dp"
+                                android:background="@drawable/radius"
+                                android:elevation="10dp"
+                                android:padding="10dp" />
+
+                            <TextView
+                                android:layout_width="155dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="440dp"
+                                android:layout_marginTop="1130dp"
+                                android:text="₱ 1,500"
+                                android:textColor="#ffffff"
+                                android:textSize="12dp"
+                                android:textStyle="bold"
+                                android:translationZ="90dp" />
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>
